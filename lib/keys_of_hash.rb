@@ -5,6 +5,7 @@ class Hash
     self.each do |key, value|
       if arguments = value
         array << value
-        return array
+      end
+      return array
   end
 end
