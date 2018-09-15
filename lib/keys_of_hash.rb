@@ -3,7 +3,7 @@ class Hash
     array = []
 
     arguments.each do |arg|
-      arg.collect do |key, value|
+      map do |key, value|
         if arg == value
           array << key
         end
