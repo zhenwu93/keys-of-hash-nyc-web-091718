@@ -3,7 +3,7 @@ class Hash
     arr = []
 
     arguments.each do |arg|
-      arg.each do |key, value|
+      map do |key, value|
         if arg == value
           arr.push(key)
         end
