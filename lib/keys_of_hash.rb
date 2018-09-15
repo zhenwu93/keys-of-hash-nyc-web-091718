@@ -6,6 +6,8 @@ class Hash
       if arguments = value
         array << value
       end
+    end
+    
       return array
   end
 end
